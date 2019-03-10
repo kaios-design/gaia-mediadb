@@ -1,6 +1,9 @@
 {
   "name": "kaios-gaia-mediadb",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "keywords": [
+    "kaios"
+  ],
   "main": "mediadb.js",
   "license": "Apache-2.0"
 }
