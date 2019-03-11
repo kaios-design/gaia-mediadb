@@ -375,7 +375,7 @@
  * - freeSpace(): call the DeviceStorage freeSpace() method and pass the
  *     result to the specified callback
  */
-var MediaDB = (function() {
+(function(exports) {
 
   function MediaDB(mediaType, metadataParser, options) {
     this.mediaType = mediaType;
@@ -2145,6 +2145,6 @@ var MediaDB = (function() {
     }
   }
 
-  return MediaDB;
+  exports.MediaDB = MediaDB;
 
-}());
+}(window));
